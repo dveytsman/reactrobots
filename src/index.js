@@ -1,16 +1,14 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import { Card } from "./Card";
-import CardsList from "./CardsList";
 import "tachyons";
 import reportWebVitals from "./reportWebVitals";
-import { robots } from "./robots";
+import App from "./App";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <CardsList robots={robots} />
+    <App />
   </React.StrictMode>,
 );
 

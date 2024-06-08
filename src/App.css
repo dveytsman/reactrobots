@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Kuashan Script";
+  src:
+    local("Kuashan Script"),
+    url("../public/fonts/KaushanScript-Regular.otf") format("opentype");
+}
+
+h1 {
+  font-family: "Kuashan Script";
+  font-size: 3em;
+  /* font-weight: 400; */
+}
